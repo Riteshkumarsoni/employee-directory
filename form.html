@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Add/Edit Employee</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>✏️ Add / Edit Employee</h1>
+  <form id="employeeForm">
+    <input type="hidden" id="employeeId" />
+    <label>First Name:
+      <input id="firstName" required />
+    </label>
+    <label>Last Name:
+      <input id="lastName" required />
+    </label>
+    <label>Email:
+      <input id="email" type="email" required />
+    </label>
+    <label>Department:
+      <input id="department" required />
+    </label>
+    <label>Role:
+      <input id="role" required />
+    </label>
+    <button type="submit">💾 Save</button>
+    <button type="button" id="cancelBtn">Cancel</button>
+  </form>
+
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
